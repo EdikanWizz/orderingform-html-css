@@ -1,0 +1,101 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    margin: 10% auto auto auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 75%;
+    background-color: rgb(226, 223, 223);
+    font-family: "Arial", Helvetica, sans-serif;
+    margin-bottom: 30px;    
+}
+
+.header > .list{
+    display: block;
+    line-height: 0.8;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 30px;
+    animation: top;
+
+}
+.header .list  p{
+    margin-bottom: 30px;
+    text-decoration: none;
+    display: block;
+    margin-top: auto;
+    font-size: 1.3em;
+}
+.header .list a {
+    text-decoration: none;
+    margin-top: 30px;
+    line-height: 1.9;
+    color: black;
+    font-size: 13px;
+}
+
+.header .links{
+    margin-top: 20px;
+   
+}
+
+.header .links .About-link{
+    text-decoration: none;
+    display: block;
+    font-size: 1.3em;
+    margin-bottom: 17px; 
+    line-height: 2;
+}
+
+.links .only{
+    font-size: 1.3em;
+    margin-bottom: 0px;
+
+}
+
+.header  .links .gen-links{
+    display:block;
+    font-size: 13px;
+    line-height: 2;
+
+}  
+
+
+.header > .form{
+    display: block;
+    width: 100%;
+    padding: 16px;
+    line-height: 2;
+    text-align: center;
+ 
+    }
+
+.form > p:first-child{
+        font-size: 1.3em;
+}
+.form > #query{
+        font-size: 12px;
+        margin-bottom: 15px;
+}
+.header  .form  .fields {
+    margin-bottom: 8px;
+    padding: 7px;
+    width: 100%;
+    background-color: #ffffff;
+
+}
+
+.header  .form  .submit-btn {
+    margin-bottom: 8px;
+    padding: 7px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none; 
+}
